@@ -1,6 +1,6 @@
 # macOS Shared Cache
 Since MacOS Big Sur all system libraries are now stored as one large file over at `/System/Volumes/Preboot/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e` so that reverse engineering them is harder.
-This repository attempts to document the extracted binaries (via this [tool](https://github.com/keith/dyld-shared-cache-extractor)).
+This repository attempts to document the extracted binaries (via this [tool](https://github.com/keith/dyld-shared-cache-extractor)) and possibly decompile the libraries.
 
 # File structure
 The following tree is generated after using `dyld-shared-cache-extractor`:

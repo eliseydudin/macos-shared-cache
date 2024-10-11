@@ -1,2 +1,5 @@
 # macOS file system config for a directory
 .DS_Store
+
+# ObjC test files
+test.m
