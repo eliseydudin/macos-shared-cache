@@ -128,7 +128,7 @@ Frameworks:
 - `MultipeerConnectivity` - P2P connection.
 - `BackgroundAssets` - download app assets in the background.
 - `_ManagedAppDistribution_SwiftUI` - ???
-- `Tk` - ???
+- `Tk` - framework for Tcl which allows for creating GUI apps.
 - `WebKit` - Apple's web engine (alternative to chromium). It was forked from `KHTML` and remains one of the few open source Apple products.
 - `NotificationCenter` - deprecated.
 - `SystemConfiguration` - configure network settings.
@@ -197,7 +197,7 @@ Frameworks:
 - `_AppIntents_AppKit` - ???
 - `ContactsUI` - UI for user's contacts.
 - `CoreSpotlight` - core features of Spotlight.
-- `Tcl` - ??? (Has a section in `man`, I should check it out later.)
+- `Tcl` - embedding the Tcl language.
 - `LocalAuthentication` - user authentication via biometrics.
 - `MatterSupport` - control compatible smart home accessories.
 - `Foundation` - provides primitives for macOS apps. Basically ObjC's and Swift's standard library.

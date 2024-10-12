@@ -12,7 +12,7 @@ Dynamic Libraries:
 ...TODO
 
 Directories:
-- `i18n` - ??? (I assume its some stuff connected to Perl since its the only thing that comes up when you search via `man`.)
+- `i18n` - internationalization libraries.
 - `log` - logger libraries used by Apple.
 - `swift` - swift libraries.
 - `system` - libraries which interact with the system + C's standard library.
