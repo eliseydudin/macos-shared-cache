@@ -1,0 +1,264 @@
+# /System/Library/Frameworks
+Frameworks:
+- `JavaRuntimeSupport` - ???
+- `MetricKit` - ???
+- `Network` - ???
+- `ContactProvider` - ???
+- `IOBluetoothUI` - ???
+- `GameKit` - ??? (Probably the thing used by swift when you create a project of type "Game".)
+- `SecurityInterface` - ???
+- `DiscRecording` - ???
+- `Speech` - ???
+- `FSKit` - ???
+- `_LocalAuthentication_SwiftUI` - ???
+- `Automator` - ???
+- `_SpriteKit_SwiftUI` - ??? 
+- `_StoreKit_SwiftUI` - ???
+- `SafariServices` - ???
+- `ExceptionHandling` - ???
+- `Metal` - Metal framework. After Apple switched to `arm64` on macs and got a new GPU they created Metal to work with GPU. 
+- `QuartzCore` - ???
+- `CoreGraphics` - ???
+- `IOBluetooth` - ???
+- `StoreKit` - ???
+- `Ruby` - ??? (Probably used to interact with the programming language ruby.)
+- `GSS` - ???
+- `OpenGL` - OpenGL. Instead of having `libGL` like on other systems Apple decided to have this as a framework.
+- `CoreML` - ???
+- `FinanceKitUI` - ???
+- `FinderSync` - ???
+- `Quartz` - ???
+- `UserNotificationsUI` - ???
+- `TWAIN` - ???
+- `CoreMediaIO` - ???
+- `Symbols` - ???
+- `MetalPerformanceShaders` - ???
+- `AutomaticAssessmentConfiguration` - ???
+- `ExternalAccessory` - ???
+- `_AVKit_SwiftUI` - ???
+- `ScreenSaver` - the framework used when you create a project of type "ScreenSaver" in XCode.
+- `_SceneKit_SwiftUI` - ???
+- `LightweightCodeRequirements` - ???
+- `PCSC` - ???
+- `PreferencePanes` - ???
+- `MediaPlayer` - ???
+- `LinkPresentation` - ???
+- `MediaExtension` - ???
+- `NetFS` - ???
+- `MediaToolbox` - ???
+- `SyncServices` - ???
+- `ForceFeedback` - ???
+- `MetalFX` - ???
+- `OSAKit` - ???
+- `CryptoKit` - ???
+- `ServiceManagement` - ???
+- `ScreenTime` - ???
+- `MLCompute` - ???
+- `NaturalLanguage` - ???
+- `CoreVideo` - ???
+- `_PhotosUI_SwiftUI` - ???
+- `VideoDecodeAcceleration` - ???
+- `CoreHID` - ???
+- `SensitiveContentAnalysis` - ???
+- `ScriptingBridge` - ???
+- `MetalKit` - Swift framework to help with embedding Metal into GUI apps.
+- `ApplicationServices` - ???
+- `DockKit` - ???
+- `_Intents_TipKit` - ???
+- `OSLog` - ???
+- `AGL` - ???
+- `PDFKit` - ???
+- `CoreText` - ???
+- `UniformTypeIdentifiers` - ???
+- `SwiftData` - ???
+- `vmnet` - ???
+- `Cocoa` - the original GUI framework used by Apple.
+- `IOKit` - IOKit was created for Darwin to create kernel extensions.
+- `ManagedSettings` - ???
+- `AVFoundation` - Audio/Video framework for macOS apps.
+- `DiscRecordingUI` - ???
+- `ParavirtualizedGraphics` - ???
+- `Accelerate` - ???
+- `DeviceCheck` - ???
+- `_PassKit_SwiftUI` - ???
+- `MailKit` - ??? (I assume its a swift framework to help with sending emails.)
+- `ImageIO` - ???
+- `BackgroundTasks` - ???
+- `FamilyControls` - ???
+- `AppleScriptKit` - ??? 
+- `Carbon` - ???
+- `CoreBluetooth` - ???
+- `ThreadNetwork` - ???
+- `SensorKit` - ???
+- `_RealityKit_SwiftUI` - ???
+- `DriverKit` - ???
+- `Security` - ???
+- `_QuickLook_SwiftUI` - ???
+- `Contacts` - ???
+- `_SwiftData_SwiftUI` - ???
+- `ExtensionFoundation` - ???
+- `RealityKit` - used when creating apps for visionOS.
+- `_GroupActivities_AppKit` - ???
+- `StickerFoundation` - ??? (Probably used when creating stickers for iMessage.)
+- `PhotosUI` - ???
+- `ReplayKit` - ???
+- `Virtualization` - ???
+- `QuickLookUI` - ???
+- `IOSurface` - ???
+- `_MusicKit_SwiftUI` - ???
+- `MediaLibrary` - ???
+- `SpriteKit` - ??? (Probably used by GameKit when you work with 2D sprites.)
+- `IntentsUI` - ???
+- `QuickLookThumbnailing` - ???
+- `CoreMedia` - ???
+- `BusinessChat` - ???
+- `OpenDirectory` - ???
+- `Intents` - ???
+- `DirectoryService` - ???
+- `_WorkoutKit_SwiftUI` - ???
+- `ColorSync` - ???
+- `AppleScriptObjC` - ??? (Probably a framework to interact with Apple Script from ObjC.)
+- `VideoSubscriberAccount` - ???
+- `CoreWLAN` - ???
+- `AccessorySetupKit` - ???
+- `PencilKit` - ???
+- `FinanceKit` - ???
+- `CoreServices` - ???
+- `HealthKit` - ???
+- `MultipeerConnectivity` - ???
+- `BackgroundAssets` - ???
+- `_ManagedAppDistribution_SwiftUI` - ???
+- `Tk` - ???
+- `WebKit` - Apple's web engine (alternative to chromium). It was forked from `KHTML` and remains one of the few open source Apple products.
+- `NotificationCenter` - ???
+- `SystemConfiguration` - ???
+- `GameController` - ???
+- `CoreTelephony` - ???
+- `OpenCL` - framework for interacting with GPU. Kinda like `CUDA` before `CUDA`.
+- `AVFAudio` - ???
+- `CoreDisplay` - ???
+- `SwiftUICore` - ???
+- `AudioUnit` - ???
+- `FileProvider` - ???
+- `DeviceActivity` - ???
+- `Social` - ???
+- `AppKit` - the GUI framework used by Apple on macs before SwiftUI.
+- `IdentityLookup` - ???
+- `Matter` - ???
+- `CoreImage` - ???
+- `CoreAudio` - ???
+- `ExecutionPolicy` - ???
+- `Cinematic` - ???
+- `MusicKit` - ???
+- `DeviceDiscoveryExtension` - ???
+- `Hypervisor` - ???
+- `ICADevices` - ???
+- `CoreAudioKit` - ???
+- `LDAP` - ???
+- `ClassKit` - ??? 
+- `DVDPlayback` - ???
+- `VisionKit` - ???
+- `SwiftUI` - the most modern GUI framework used by Apple. It's a wrapper around AppKit.
+- `Combine` - ???
+- `ModelIO` - ???
+- `_DeviceActivity_SwiftUI` - ???
+- `PHASE` - ???
+- `SharedWithYou` - ???
+- `SecurityFoundation` - ???
+- `GLUT` - one of the OpenGL libraries, for some reason its also a framework.
+- `CalendarStore` - ???
+- `MetalPerformanceShadersGraph` - ???
+- `CreateMLComponents` - ???
+- `Collaboration` - ???
+- `Message` - ???
+- `AudioVideoBridging` - ???
+- `Accounts` - ???
+- `_AuthenticationServices_SwiftUI` - ???
+- `ScreenCaptureKit` - ???
+- `FileProviderUI` - ???
+- `ShazamKit` - allows for interacting with Shazam from your app.
+- `CarKey` - ???
+- `RealityFoundation` - ???
+- `ProximityReaderStub` - ???
+- `_MapKit_SwiftUI` - ???
+- `QuickLook` - ???
+- `_SwiftData_CoreData` - ???
+- `AppIntents` - ???
+- `AuthenticationServices` - ???
+- `KernelManagement` - ???
+- `_AppIntents_SwiftUI` - ???
+- `_CoreData_CloudKit` - ???
+- `WeatherKit` - get information about weather from your app.
+- `DataDetection` - ???
+- `AudioToolbox` - ???
+- `SystemExtensions` - ???
+- `Kerberos` - ???
+- `NearbyInteraction` - ???
+- `_AppIntents_AppKit` - ???
+- `ContactsUI` - ???
+- `CoreSpotlight` - ???
+- `Tcl` - ??? (Has a section in `man`, I should check it out later.)
+- `LocalAuthentication` - ???
+- `MatterSupport` - ???
+- `Foundation` - provides primitives for macOS apps. Basically ObjC's and Swift's standard library.
+- `AdSupport` - ???
+- `LocalAuthenticationEmbeddedUI` - ???
+- `InstallerPlugins` - ???
+- `Accessibility` - ???
+- `PushKit` - ???
+- `Vision` - ???
+- `NetworkExtension` - ???
+- `ExtensionKit` - ???
+- `OpenAL` - open audio library. It's like OpenGL but for working with 3D sound.
+- `EventKit` - ???
+- `MediaAccessibility` - ???
+- `Charts` - ???
+- `MapKit` - provides an ability to interact with maps (like open views) for your app.
+- `AppTrackingTransparency` - ???
+- `CoreHaptics` - ???
+- `CallKit` - ???
+- `CoreFoundation` - the core of `Foundation`. 
+- `TabularData` - ???
+- `CoreMotion` - ???
+- `AVRouting` - ???
+- `StickerKit` - ???
+- `WidgetKit` - ???
+- `AVKit` - ???
+- `AddressBook` - ??
+- `SoundAnalysis` - ???
+- `CoreMIDIServer` - ???
+- `GroupActivities` - ???
+- `CoreLocation` - ???
+- `CloudKit` - ???
+- `IOUSBHost` - ???
+- `LatentSemanticMapping` - ???
+- `SharedWithYouCore` - ???
+- `CFNetwork` - ???
+- `BrowserEngineCore` - ???
+- `Photos` - ???
+- `JavaScriptCore` - JS engine used by WebKit.
+- `GameplayKit` - ???
+- `DiskArbitration` - ??? 
+- `WorkoutKit` - ???
+- `BrowserEngineKit` - ???
+- `InstantMessage` - ???
+- `PushToTalk` - ???
+- `CoreMIDI` - ???
+- `InputMethodKit` - ???
+- `PassKit` - ???
+- `ImageCaptureCore` - ???
+- `_Translation_SwiftUI` - ??? 
+- `TipKit` - ???
+- `CoreData` - one of the frameworks for saving data locally.
+- `GLKit` - open views for OpenGL inside an ObjC/Swift app.
+- `AdServices` - ???
+- `CryptoTokenKit` - ??? 
+- `VideoToolbox` - ???
+- `SafetyKit` - ???
+- `Translation` - ???
+- `UserNotifications` - ???
+- `ManagedAppDistribution` - ???
+- `DeveloperToolsSupport` - ???
+- `iTunesLibrary` - ???
+- `CoreTransferable` - ???
+- `SceneKit` - ??? (Something connnected to SwiftUI since you are required to create a main `Scene` in there)
