@@ -4,8 +4,9 @@ Dynamic Libraries:
 - `libssl.*.dylib` - secure socket layer library.
 - `libSystem.B.dylib` - the main library. It is automatically linked with every compiled executable, so it functions kinda like `libc` on Linux. It is also linked to many other libraries in `/usr/lib/system/`, which contain the function definitions for most of C's standard library.
 - `libobjc.A.dylib` - ObjC runtime.
-- `libc++.*.dylib` & `libstdc++.*.dylib` - ??? (Probably defintions for `extern`'d functions/vairables from C++'s standard library.)
-- `libc++abi.dylib` - a lot of stuff, primarily used by C++'s exceptions.
+- `libstdc++.*.dylib` - GNU's implementation of C++'s STD.
+- `libc++abi.dylib` - low level functions of C++'s standard library.
+- `libc++.*.dylib` - abstraction over `libc++abi.dylib`.
 - `libcurl.*.dylib` - cURL library.
 - `libsqlite.*.dylib` - SQLite database library.
 - `libz.*.dylib` - library for the Z compression algorithm.
