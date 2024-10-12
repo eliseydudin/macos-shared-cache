@@ -1,264 +1,264 @@
 # /System/Library/Frameworks
 Frameworks:
-- `JavaRuntimeSupport` - ???
-- `MetricKit` - ???
-- `Network` - ???
-- `ContactProvider` - ???
-- `IOBluetoothUI` - ???
-- `GameKit` - ??? (Probably the thing used by swift when you create a project of type "Game".)
-- `SecurityInterface` - ???
+- `JavaRuntimeSupport` - ??? (After viewing the assembly I assume its a helper library for Java's GUI framework.)
+- `MetricKit` - collect data about the app crashing etc.
+- `Network` - interact with network (send/recieve data).
+- `ContactProvider` - provide contacts from your app to the whole system.
+- `IOBluetoothUI` - UI for bluetooth in your app.
+- `GameKit` - access GameCenter from your app.
+- `SecurityInterface` - security features like authentication, access to digital certificates, and access to items in keychains.
 - `DiscRecording` - ???
-- `Speech` - ???
-- `FSKit` - ???
+- `Speech` - speech recognition in an app.
+- `FSKit` - ??? (There's no documention on this, so I assume it has something to do with the filesystem.)
 - `_LocalAuthentication_SwiftUI` - ???
-- `Automator` - ???
+- `Automator` - add actions to the automator app.
 - `_SpriteKit_SwiftUI` - ??? 
 - `_StoreKit_SwiftUI` - ???
-- `SafariServices` - ???
-- `ExceptionHandling` - ???
+- `SafariServices` - ??? (Probably something connected to safari extensions.)
+- `ExceptionHandling` - handle runtime errors in an app.
 - `Metal` - Metal framework. After Apple switched to `arm64` on macs and got a new GPU they created Metal to work with GPU. 
-- `QuartzCore` - ???
-- `CoreGraphics` - ???
-- `IOBluetooth` - ???
-- `StoreKit` - ???
+- `QuartzCore` - the rendering API used by apple. It is documented really poorly.
+- `CoreGraphics` -  low-level, lightweight 2D rendering.
+- `IOBluetooth` - access to bluetooth.
+- `StoreKit` - ??? (Probably access to the buying API.)
 - `Ruby` - ??? (Probably used to interact with the programming language ruby.)
-- `GSS` - ???
+- `GSS` - "The open source Generic Security Service Application Programming Interface (GSS-API) defines a standardized interface through which the operating system vends secure data transport operations. The GSS framework provides an implementation of the interface and the underlying libraries."
 - `OpenGL` - OpenGL. Instead of having `libGL` like on other systems Apple decided to have this as a framework.
-- `CoreML` - ???
-- `FinanceKitUI` - ???
-- `FinderSync` - ???
-- `Quartz` - ???
-- `UserNotificationsUI` - ???
+- `CoreML` - integrate machine learning models into your app.
+- `FinanceKitUI` - add orders to apple wallet.
+- `FinderSync` - file synchronization via finder in your app.
+- `Quartz` - ??? (Poorly documented, but basically its another part of the rendering stack.)
+- `UserNotificationsUI` - customize local/remote notifications.
 - `TWAIN` - ???
 - `CoreMediaIO` - ???
-- `Symbols` - ???
-- `MetalPerformanceShaders` - ???
-- `AutomaticAssessmentConfiguration` - ???
-- `ExternalAccessory` - ???
+- `Symbols` - apply animations to built-in symbols.
+- `MetalPerformanceShaders` - collection of shaders for Metal.
+- `AutomaticAssessmentConfiguration` - limit access to the system for the user.
+- `ExternalAccessory` - work with accessories connected to the device.
 - `_AVKit_SwiftUI` - ???
 - `ScreenSaver` - the framework used when you create a project of type "ScreenSaver" in XCode.
 - `_SceneKit_SwiftUI` - ???
-- `LightweightCodeRequirements` - ???
+- `LightweightCodeRequirements` - test the identity of executable code on disk and in running processes.
 - `PCSC` - ???
-- `PreferencePanes` - ???
-- `MediaPlayer` - ???
-- `LinkPresentation` - ???
+- `PreferencePanes` - app settings in the "System Settings" app.
+- `MediaPlayer` - find and play songs, audio podcasts, audio books, and more from within your app.
+- `LinkPresentation` - represent URL metadata as a view.
 - `MediaExtension` - ???
-- `NetFS` - ???
+- `NetFS` - ??? (Something connected to the kernel.)
 - `MediaToolbox` - ???
 - `SyncServices` - ???
-- `ForceFeedback` - ???
-- `MetalFX` - ???
+- `ForceFeedback` - "Control force feedback devices attached to the system. Develop plug-ins that enable communication with force feedback hardware."
+- `MetalFX` - antialiasing and other utils for metal.
 - `OSAKit` - ???
-- `CryptoKit` - ???
-- `ServiceManagement` - ???
-- `ScreenTime` - ???
-- `MLCompute` - ???
-- `NaturalLanguage` - ???
-- `CoreVideo` - ???
+- `CryptoKit` - cryptography.
+- `ServiceManagement` - manage startup items, launch agents, and launch daemons from within an app.
+- `ScreenTime` - share and manage web usage data.
+- `MLCompute` - accelerated machine learning. It is now basically deprecated.
+- `NaturalLanguage` - analyze natural language text and deduce its language-specific metadata.
+- `CoreVideo` - process videos.
 - `_PhotosUI_SwiftUI` - ???
 - `VideoDecodeAcceleration` - ???
-- `CoreHID` - ???
-- `SensitiveContentAnalysis` - ???
-- `ScriptingBridge` - ???
+- `CoreHID` - interact with keyboard/mouse. Currently in beta.
+- `SensitiveContentAnalysis` - analyze content to check whether its 18+.
+- `ScriptingBridge` - automate scriptable apps. 
 - `MetalKit` - Swift framework to help with embedding Metal into GUI apps.
-- `ApplicationServices` - ???
-- `DockKit` - ???
+- `ApplicationServices` - perform common application stuff like accessing the clipboard.
+- `DockKit` - interfacing with DockKit compatible devices.
 - `_Intents_TipKit` - ???
-- `OSLog` - ???
-- `AGL` - ???
-- `PDFKit` - ???
-- `CoreText` - ???
-- `UniformTypeIdentifiers` - ???
-- `SwiftData` - ???
-- `vmnet` - ???
+- `OSLog` - inteface with macOS' logging system.
+- `AGL` - "Create and manage OpenGL rendering contexts for use in macOS, and perform operations on drawable objects", really undocumented.
+- `PDFKit` - display and manipulate PDFs in an app.
+- `CoreText` - like harfbuzz but for Apple.
+- `UniformTypeIdentifiers` - check file types.
+- `SwiftData` - store data as models.
+- `vmnet` - connect with network interfaces to read and write packets on guest operating systems.
 - `Cocoa` - the original GUI framework used by Apple.
 - `IOKit` - IOKit was created for Darwin to create kernel extensions.
-- `ManagedSettings` - ???
+- `ManagedSettings` - access and change settings with your app while maintaining user privacy and control.
 - `AVFoundation` - Audio/Video framework for macOS apps.
 - `DiscRecordingUI` - ???
-- `ParavirtualizedGraphics` - ???
-- `Accelerate` - ???
-- `DeviceCheck` - ???
+- `ParavirtualizedGraphics` - add graphics acceleration to your guest driver stack.
+- `Accelerate` - accelerated image and mathematical computations.
+- `DeviceCheck` - "Reduce fraudulent use of your services by managing device state and asserting app integrity."
 - `_PassKit_SwiftUI` - ???
-- `MailKit` - ??? (I assume its a swift framework to help with sending emails.)
-- `ImageIO` - ???
-- `BackgroundTasks` - ???
-- `FamilyControls` - ???
-- `AppleScriptKit` - ??? 
-- `Carbon` - ???
-- `CoreBluetooth` - ???
-- `ThreadNetwork` - ???
-- `SensorKit` - ???
+- `MailKit` - interact with emails the user sends.
+- `ImageIO` - interact with different image formats (kinda like STB images).
+- `BackgroundTasks` - run your app in the background.
+- `FamilyControls` - parental controls.
+- `AppleScriptKit` - ??? (It is undocumented, I assume it allows for embedding AppleScript.)
+- `Carbon` - an older part of the rendering stack. Currently deprecated.
+- `CoreBluetooth` - low level bluetooth access.
+- `ThreadNetwork` - interact with smart home devices via the "Thread" protocol.
+- `SensorKit` - get data from the device's sensors (like ambient light).
 - `_RealityKit_SwiftUI` - ???
-- `DriverKit` - ???
-- `Security` - ???
+- `DriverKit` - developing device drivers.
+- `Security` - cryptography.
 - `_QuickLook_SwiftUI` - ???
-- `Contacts` - ???
+- `Contacts` - access the user's contacts.
 - `_SwiftData_SwiftUI` - ???
-- `ExtensionFoundation` - ???
+- `ExtensionFoundation` - create extensions for other apps.
 - `RealityKit` - used when creating apps for visionOS.
 - `_GroupActivities_AppKit` - ???
 - `StickerFoundation` - ??? (Probably used when creating stickers for iMessage.)
 - `PhotosUI` - ???
-- `ReplayKit` - ???
-- `Virtualization` - ???
-- `QuickLookUI` - ???
-- `IOSurface` - ???
+- `ReplayKit` - record video/audio from the device.
+- `Virtualization` - create virtual machines.
+- `QuickLookUI` - create previews of files inside your app.
+- `IOSurface` - interact with hardware accelerated buffer data.
 - `_MusicKit_SwiftUI` - ???
-- `MediaLibrary` - ???
-- `SpriteKit` - ??? (Probably used by GameKit when you work with 2D sprites.)
+- `MediaLibrary` - deprecated.
+- `SpriteKit` - create 2D games.
 - `IntentsUI` - ???
-- `QuickLookThumbnailing` - ???
-- `CoreMedia` - ???
+- `QuickLookThumbnailing` - generate thumbnails for generic file types.
+- `CoreMedia` - represent time-based audio-visual assets with essential data types.
 - `BusinessChat` - ???
-- `OpenDirectory` - ???
-- `Intents` - ???
-- `DirectoryService` - ???
+- `OpenDirectory` - authenticate users, and search for contact information in Open Directory and LDAP directories.
+- `Intents` - specify required permissions and provide handlers for the intents your app supports, and configure app extensions.
+- `DirectoryService` - configure AD domain.
 - `_WorkoutKit_SwiftUI` - ???
-- `ColorSync` - ???
+- `ColorSync` - reproduce colors accurately across a range of input, output, and display devices.
 - `AppleScriptObjC` - ??? (Probably a framework to interact with Apple Script from ObjC.)
-- `VideoSubscriberAccount` - ???
-- `CoreWLAN` - ???
-- `AccessorySetupKit` - ???
-- `PencilKit` - ???
-- `FinanceKit` - ???
-- `CoreServices` - ???
-- `HealthKit` - ???
-- `MultipeerConnectivity` - ???
-- `BackgroundAssets` - ???
+- `VideoSubscriberAccount` - Apple TV integration.
+- `CoreWLAN` - query AirPort interfaces and choose wireless networks.
+- `AccessorySetupKit` - enable privacy-preserving discovery and configuration of accessories (beta).
+- `PencilKit` - work with Apple pencil.
+- `FinanceKit` - work with user's financial data.
+- `CoreServices` - manage system's key services.
+- `HealthKit` - access information from the "Health" app.
+- `MultipeerConnectivity` - P2P connection.
+- `BackgroundAssets` - download app assets in the background.
 - `_ManagedAppDistribution_SwiftUI` - ???
 - `Tk` - ???
 - `WebKit` - Apple's web engine (alternative to chromium). It was forked from `KHTML` and remains one of the few open source Apple products.
-- `NotificationCenter` - ???
-- `SystemConfiguration` - ???
-- `GameController` - ???
-- `CoreTelephony` - ???
+- `NotificationCenter` - deprecated.
+- `SystemConfiguration` - configure network settings.
+- `GameController` - support for controllers in your game.
+- `CoreTelephony` - access information about a user’s cellular service provider, such as its unique identifier and whether the carrier allows VoIP.
 - `OpenCL` - framework for interacting with GPU. Kinda like `CUDA` before `CUDA`.
-- `AVFAudio` - ???
-- `CoreDisplay` - ???
+- `AVFAudio` - play, record and work with audio.
+- `CoreDisplay` - ??? (Probably another private part of the rendering stack.)
 - `SwiftUICore` - ???
-- `AudioUnit` - ???
-- `FileProvider` - ???
-- `DeviceActivity` - ???
-- `Social` - ???
+- `AudioUnit` - "Add sophisticated audio manipulation and processing capabilities to your app. Create audio unit extensions that generate or modify audio in a host app."
+- `FileProvider` - allow other apps to access your app's files.
+- `DeviceActivity` - monitor device activity with your app extension while maintaining user privacy.
+- `Social` - template for creating HTTP requests for working with social media stuff.
 - `AppKit` - the GUI framework used by Apple on macs before SwiftUI.
 - `IdentityLookup` - ???
-- `Matter` - ???
-- `CoreImage` - ???
-- `CoreAudio` - ???
-- `ExecutionPolicy` - ???
-- `Cinematic` - ???
-- `MusicKit` - ???
-- `DeviceDiscoveryExtension` - ???
-- `Hypervisor` - ???
+- `Matter` - communicate with and control smart home devices from a variety of manufacturers.
+- `CoreImage` - process images/videos.
+- `CoreAudio` - interact with device's audio hardware.
+- `ExecutionPolicy` - provide functionality so developer tools can manage execution policy exceptions.
+- `Cinematic` - integrate playback and editing of assets captured in cinematic mode into your app.
+- `MusicKit` - integrate Apple Music into your app.
+- `DeviceDiscoveryExtension` - stream media to other devices (like the feature to stream a video to a television on YouTube).
+- `Hypervisor` - another framework for virtualization.
 - `ICADevices` - ???
-- `CoreAudioKit` - ???
-- `LDAP` - ???
-- `ClassKit` - ??? 
+- `CoreAudioKit` - CoreAudioInterface for Swift.
+- `LDAP` - the payload you use to configure an LDAP account.
+- `ClassKit` - stuff for educational apps.
 - `DVDPlayback` - ???
-- `VisionKit` - ???
+- `VisionKit` - identify stuff captured by the device's camera.
 - `SwiftUI` - the most modern GUI framework used by Apple. It's a wrapper around AppKit.
-- `Combine` - ???
+- `Combine` - customize handling of asynchronous events by combining event-processing operators.
 - `ModelIO` - ???
 - `_DeviceActivity_SwiftUI` - ???
-- `PHASE` - ???
-- `SharedWithYou` - ???
-- `SecurityFoundation` - ???
+- `PHASE` - 3D audio for swift games.
+- `SharedWithYou` - surface shared content and collaborate in your app.
+- `SecurityFoundation` - restrict a user’s access to particular features in your Mac app or daemon.
 - `GLUT` - one of the OpenGL libraries, for some reason its also a framework.
 - `CalendarStore` - ???
-- `MetalPerformanceShadersGraph` - ???
-- `CreateMLComponents` - ???
-- `Collaboration` - ???
-- `Message` - ???
+- `MetalPerformanceShadersGraph` - build, compile, and execute compute graphs utilizing all the different compute devices on the platform, including GPU, CPU, and Neural Engine.
+- `CreateMLComponents` - create more customizable machine learning models in your app.
+- `Collaboration` - monitor identities and their attributes.
+- `Messages` - create app extensions that allow users to send text, stickers, media files, and interactive messages.
 - `AudioVideoBridging` - ???
-- `Accounts` - ???
+- `Accounts` - deprecated.
 - `_AuthenticationServices_SwiftUI` - ???
-- `ScreenCaptureKit` - ???
-- `FileProviderUI` - ???
+- `ScreenCaptureKit` - record the device's screen.
+- `FileProviderUI` - add actions to the document browser’s context menu.
 - `ShazamKit` - allows for interacting with Shazam from your app.
-- `CarKey` - ???
-- `RealityFoundation` - ???
+- `CarKey` - access the remote keyless features of configured vehicles in the Wallet app.
+- `RealityFoundation` - ??? (Probably has something to do with AR.)
 - `ProximityReaderStub` - ???
 - `_MapKit_SwiftUI` - ???
-- `QuickLook` - ???
+- `QuickLook` - create previews of files inside your app.
 - `_SwiftData_CoreData` - ???
-- `AppIntents` - ???
-- `AuthenticationServices` - ???
-- `KernelManagement` - ???
+- `AppIntents` - make your app’s content and actions discoverable with system tools.
+- `AuthenticationServices` - log into apps.
+- `KernelManagement` - manage kernel extensions.
 - `_AppIntents_SwiftUI` - ???
 - `_CoreData_CloudKit` - ???
 - `WeatherKit` - get information about weather from your app.
-- `DataDetection` - ???
-- `AudioToolbox` - ???
-- `SystemExtensions` - ???
-- `Kerberos` - ???
+- `DataDetection` - access and utilize common types of data that the data detection system matches.
+- `AudioToolbox` - record and work with audio.
+- `SystemExtensions` - manage user space extension code.
+- `Kerberos` - ??? (Has related documentation but no framework page)
 - `NearbyInteraction` - ???
 - `_AppIntents_AppKit` - ???
-- `ContactsUI` - ???
-- `CoreSpotlight` - ???
+- `ContactsUI` - UI for user's contacts.
+- `CoreSpotlight` - core features of Spotlight.
 - `Tcl` - ??? (Has a section in `man`, I should check it out later.)
-- `LocalAuthentication` - ???
-- `MatterSupport` - ???
+- `LocalAuthentication` - user authentication via biometrics.
+- `MatterSupport` - control compatible smart home accessories.
 - `Foundation` - provides primitives for macOS apps. Basically ObjC's and Swift's standard library.
-- `AdSupport` - ???
-- `LocalAuthenticationEmbeddedUI` - ???
+- `AdSupport` - work with advertisements.
+- `LocalAuthenticationEmbeddedUI` - UI for `LocalAuthenticaion`.
 - `InstallerPlugins` - ???
-- `Accessibility` - ???
-- `PushKit` - ???
-- `Vision` - ???
-- `NetworkExtension` - ???
-- `ExtensionKit` - ???
+- `Accessibility` - accessibility stuff for people with disabilities.
+- `PushKit` - respond to push notifications related to your app’s complications, file providers, and VoIP services.
+- `Vision` - accessibility for people with vision disabilities.
+- `NetworkExtension` - extend core networking features.
+- `ExtensionKit` - abstraction over `ExtensionFoundation`.
 - `OpenAL` - open audio library. It's like OpenGL but for working with 3D sound.
-- `EventKit` - ???
-- `MediaAccessibility` - ???
+- `EventKit` - create/edit calendars.
+- `MediaAccessibility` - make your app’s media more accessible by supporting people’s systemwide preferences for video and audio content.
 - `Charts` - ???
 - `MapKit` - provides an ability to interact with maps (like open views) for your app.
-- `AppTrackingTransparency` - ???
-- `CoreHaptics` - ???
-- `CallKit` - ???
+- `AppTrackingTransparency` - request user authorization to access app-related data for tracking the user or the device.
+- `CoreHaptics` - "Use haptics to engage users physically, with tactile and audio feedback that gets attention and reinforces actions", basically create vibrations.
+- `CallKit` - display system calling UI inside your app.
 - `CoreFoundation` - the core of `Foundation`. 
-- `TabularData` - ???
-- `CoreMotion` - ???
-- `AVRouting` - ???
+- `TabularData` - work with machine learning data.
+- `CoreMotion` - access environment-related events (like gyroscope).
+- `AVRouting` - display custom destinations to stream media in the system route picker.
 - `StickerKit` - ???
-- `WidgetKit` - ???
-- `AVKit` - ???
-- `AddressBook` - ??
-- `SoundAnalysis` - ???
-- `CoreMIDIServer` - ???
-- `GroupActivities` - ???
-- `CoreLocation` - ???
-- `CloudKit` - ???
-- `IOUSBHost` - ???
-- `LatentSemanticMapping` - ???
-- `SharedWithYouCore` - ???
-- `CFNetwork` - ???
-- `BrowserEngineCore` - ???
+- `WidgetKit` - create widgets for your app.
+- `AVKit` - embed audio/video views in your app.
+- `AddressBook` - access the centralized database for storing users’ contacts (Deprecated). 
+- `SoundAnalysis` - identify audio sources.
+- `CoreMIDIServer` - work with MIDI.
+- `GroupActivities` - create app-specific activities your users can experience together.
+- `CoreLocation` - get geographic location of the user.
+- `CloudKit` - work with Apple Cloud.
+- `IOUSBHost` - create host-mode user space drivers for USB devices.
+- `LatentSemanticMapping` - classify text and other token-based content into developer-defined categories.
+- `SharedWithYouCore` - core version of `SharedWithYou`.
+- `CFNetwork` - access network services.
+- `BrowserEngineCore` - integrate an alternative browser engine into your web browser app.
 - `Photos` - ???
-- `JavaScriptCore` - JS engine used by WebKit.
-- `GameplayKit` - ???
-- `DiskArbitration` - ??? 
-- `WorkoutKit` - ???
-- `BrowserEngineKit` - ???
+- `JavaScriptCore` - embeddable JS engine used by WebKit.
+- `GameplayKit` - gameplay logic.
+- `DiskArbitration` - provides mechanisms to register and block disk mount or unmount events.
+- `WorkoutKit` - create, preview, and sync workout compositions to the Workout app.
+- `BrowserEngineKit` - create a browser that renders content using an alternative browser engine.
 - `InstantMessage` - ???
-- `PushToTalk` - ???
-- `CoreMIDI` - ???
-- `InputMethodKit` - ???
-- `PassKit` - ???
-- `ImageCaptureCore` - ???
+- `PushToTalk` - display the system user interface for your app’s Push to Talk services.
+- `CoreMIDI` - work with MIDI.
+- `InputMethodKit` - develop input methods and manage communication with client applications, candidates windows, and input method modes.
+- `PassKit` - work with apple pay.
+- `ImageCaptureCore` - work with media devices.
 - `_Translation_SwiftUI` - ??? 
-- `TipKit` - ???
+- `TipKit` - display tips that help people discover features in your app.
 - `CoreData` - one of the frameworks for saving data locally.
 - `GLKit` - open views for OpenGL inside an ObjC/Swift app.
 - `AdServices` - ???
-- `CryptoTokenKit` - ??? 
-- `VideoToolbox` - ???
-- `SafetyKit` - ???
-- `Translation` - ???
-- `UserNotifications` - ???
-- `ManagedAppDistribution` - ???
-- `DeveloperToolsSupport` - ???
-- `iTunesLibrary` - ???
-- `CoreTransferable` - ???
-- `SceneKit` - ??? (Something connnected to SwiftUI since you are required to create a main `Scene` in there)
+- `CryptoTokenKit` - access security tokens and the cryptographic assets they store. 
+- `VideoToolbox` - work directly with hardware-accelerated video encoding and decoding capabilities.
+- `SafetyKit` - handle car crashes (?) via your app.
+- `Translation` - translate text in your app from one language to another language.
+- `UserNotifications` - create notifications.
+- `ManagedAppDistribution` - manage the distribution of apps within an organization.
+- `DeveloperToolsSupport` - export custom views.
+- `iTunesLibrary` - work with user's iTunes library.
+- `CoreTransferable` - declare a transfer representation for your model types to participate in system sharing and data transfer operations.
+- `SceneKit` - stuff for 3D apps/games.
